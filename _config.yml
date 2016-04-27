@@ -1,0 +1,21 @@
+# Site settings
+title: Skip's Awesome Blog
+header-img: img/home-bg.png
+email: skip+test01@flatironschool.com
+copyright_name: skipsuva-test1
+description: > # this means to ignore newlines until "baseurl:"
+  Blogity Blog-Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  skipsuva-test1
+learn_profile: skipsuva-test1
+email_username: skip+test01@flatironschool.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
